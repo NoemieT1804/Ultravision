@@ -150,4 +150,58 @@ color: black;
 }
 
 
+.colonnes2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.bloc-image-arcade {
+  flex-basis: 0;
+  flex-grow: 1;
+  background-color: #ff6b00;
+  text-align: left;
+}
+
+.image-arcade {
+  mix-blend-mode: darken;
+}
+
+.bloc-texte-arcade {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.titre-arcade {
+  text-align: center;
+  font-size: 24px;
+ font-weight: bold;
+  color: black;
+}
+
+.texte-arcade {
+ font-family: Poppins;
+ font-size: 16px;
+ text-align: justify;
+ padding-right: 48px;
+ color: black;
+}
+
+.bouton-rouge {
+  color: #ff6b00 ;
+  width: 113px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.titre-advance {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
