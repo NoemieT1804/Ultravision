@@ -154,6 +154,7 @@ color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  align-items: flex-start;
 }
 
 .bloc-image-arcade {
@@ -204,4 +205,147 @@ color: black;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+}
+
+
+.colonnes3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #e02020;
+}
+
+.bloc-texte-an-arcade {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: left;
+  margin: 0px;
+  padding: 20px;
+}
+
+.titre-an-arcade {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.texte-an-arcade {
+  font-family: Poppins;
+ font-size: 16px;
+ text-align: left;
+ color: white; 
+}
+
+.bouton-blanc {
+  color: white ;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+} 
+
+.bloc-image-an-arcade {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.image-an-arcade {
+  mix-blend-mode: darken;
+}
+
+
+.colonnes4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #b620e0;
+}
+
+.bloc-texte-color-tv {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: left;
+  margin: 0px;
+  padding: 20px;
+}
+
+.titre-color-tv {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.texte-color-tv {
+  font-family: Poppins;
+ font-size: 16px;
+ text-align: left;
+ color: white; 
+}
+
+.bouton-blanc {
+  color: white ;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+} 
+
+.bloc-image-color-tv {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.image-color-tv {
+  mix-blend-mode: darken;
+}
+
+.colonnes5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color:#6236ff ;
+}
+
+.bloc-texte-computer {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: left;
+  margin: 0px;
+  padding: 20px;
+}
+
+.titre-computer {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.texte-computer {
+  font-family: Poppins;
+ font-size: 16px;
+ text-align: left;
+ color: white; 
+}
+
+.bouton-blanc {
+  color: white ;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+} 
+
+.bloc-image-computer {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.image-computer {
+  mix-blend-mode: darken;
 }
