@@ -98,8 +98,56 @@ a:hover {
   font-size: 40px;
 } 
 
+.colonnes {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.bloc_texte {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.bloc_photo {
+  flex-basis: 0;
+  flex-grow: 1;
+  background-color: #fcce00;
+  text-align: right;
+}
+
+.photo-ordinateur {
+  mix-blend-mode: darken;
+}
+
+.button {
+  color: #fcce00;
+  width: 113px;
+  height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+
 .sub-title {
   text-align: center;
   font-size: 24px;
+ font-weight: bold;
+  color: black;  
 }
+
+.introduction {
+font-family: Poppins;
+font-size: 16px;
+text-align: justify;
+padding-right: 48px;
+color: black;
+}
+
+
 
