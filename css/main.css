@@ -349,3 +349,34 @@ color: black;
 .image-computer {
   mix-blend-mode: darken;
 }
+
+.images {
+  background-color: black;
+  padding: 64px 0;
+}
+
+.photos{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Last-title {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.contact {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.formulaire {
+  text-align: center;
+}
+
+.col {
+  color:white;
+}
